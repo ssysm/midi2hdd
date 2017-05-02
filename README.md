@@ -11,3 +11,8 @@ midi2hdd.pde是processing源码
 ---------------------------------------
 
 loopMidi下载地址：https://www.tobias-erichsen.de/software/loopmidi.html
+
+---------------------------------------
+
+Bilibili:http://space.bilibili.com/10010775/#!/
+
