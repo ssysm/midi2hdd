@@ -1,0 +1,2 @@
+# midi2hdd
+利用processing与looplmidi为arduino驱动硬盘发声
