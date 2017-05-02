@@ -6,12 +6,12 @@ MidiIO midiIO;
 int message = 0;
 void setup() {                                          
   println(Serial.list());
-  myPort = new Serial(this, "YOUR COM PORT", 9600);
+  myPort = new Serial(this, "YOUR_COM_PORT", 9600);
   midiIO = MidiIO.getInstance(this);
   //Line that prints I/O devices in console
   midiIO.printDevices();
   //Receive input from Virtual MIDI Ports
-  midiIO.openInput(0,3);
+  midiIO.openInput(YOUR_MIDI_PORT,YOUR_MIDI_CHANNEL);
 }
 void draw(){} 
 void noteOn(Note note, int deviceNum, int midiChan){
