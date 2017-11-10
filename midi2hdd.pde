@@ -10,7 +10,7 @@ void setup() {
   midiIO = MidiIO.getInstance(this);
   //Line that prints I/O devices in console
   midiIO.printDevices();
-  //Receive input from Virtual MIDI Ports
+  //打开midi端口
   midiIO.openInput(YOUR_MIDI_PORT,YOUR_MIDI_CHANNEL);
 }
 void draw(){} 
